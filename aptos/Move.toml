@@ -1,0 +1,13 @@
+[package]
+name = "WhitelistedNFT"
+version = "1.0.0"
+authors = []
+
+[addresses]
+whitelist_nft = "_"
+
+[dev-addresses]
+whitelist_nft = "0xCAFE"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "devnet" } 
