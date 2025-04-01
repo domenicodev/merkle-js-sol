@@ -1,0 +1,27 @@
+{
+  "name": "merkle-js-sol",
+  "version": "1.0.0",
+  "description": "NFT Whitelist with Merkle Proofs",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js",
+    "interact": "hardhat run scripts/interact.js",
+    "whitelist": "node scripts/whitelist-manager.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "@openzeppelin/contracts": "^5.2.0",
+    "chai": "^5.2.0",
+    "ethereum-waffle": "^4.0.10",
+    "ethers": "^5.8.0",
+    "hardhat": "^2.22.19",
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.5.1"
+  }
+}
